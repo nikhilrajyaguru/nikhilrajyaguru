@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+	transition: 1s;
+}
+.wrapper{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+/*banner start*/
+.banner{
+	padding: 100px 0px;
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid white;
+	min-height: 100vh;
+	background: url(../image/nikhil.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;	
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 1 !important;
+}
+.banner:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	z-index: -1;
+}
+.banner:before{
+	content: 'Nikhil';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 50%;
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	writing-mode: vertical-rl;
+	color: white;
+	font-size: 200px;
+}
+/*banner End*/
+/*about-me-start*/
+span i{
+	margin: 0px 10px;
+}
+.about-me{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+.blank{
+	margin-bottom: 80px;
+}
+/*about-me-End*/
+/*skill start*/
+.skills{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+/*skill End*/
+/*education start*/
+.education{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+/*education End*/
+/*portfolio start*/
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+/*portfolio End*/
+/*refrence start*/
+.refrence{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+/*refrence End*/
+/*contact start*/
+.contact{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+}
+/*contact end*/
+/*footer start*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background: #FBFBFB;
+
+}
+/*footer End*/

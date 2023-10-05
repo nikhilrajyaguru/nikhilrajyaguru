@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+.wraper{
+	width: 100%;
+	float: left;
+}
+.navbar-brand{
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+@font-face{
+		font-family:hindi;
+		src: url("../webfonts/mcr.ttf");
+}
+.brand{
+	font-family: hindi;
+}
+.solid-state{
+	width: 100%;
+	float: left;
+	padding: 150px 0px;
+}
+.diomond i{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(128, 128, 128, 0.5);
+	border-radius:1000px;
+	font-size: 50px;
+}
+.solid-head{
+	letter-spacing: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.up{
+	padding-top: 40px;
+	border-top: 1px solid gray;	
+}
+.magna-arcu{
+	width: 100%;
+	float: left;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 100px 0px;
+	color: white;
+}
+.icon-greter{
+	height: 30px;
+	width: 30px;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 100%;
+}
+.contant-img{
+	width: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+}
+.tempus{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	color: black;
+}
+.vitae{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+}
+.vitae-text{
+	padding: 20px 0px;
+	border-top: 1px solid dimgray;
+}
+.img-1{
+	border-radius: 0px;
+	border: 0;
+}
+.brows-btn button{
+	padding: 10px 30px;
+	margin: 50px 10px;
+	letter-spacing: 2px;
+	border: 2px solid #212529;
+}
+.get-in-touch{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+}
+.icons i{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius:100%;
+	border: 1px solid black;
+	font-size: 15px;
+}

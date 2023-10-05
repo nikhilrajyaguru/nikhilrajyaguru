@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-form{
+	width: 100%;
+	min-height: 100vh;
+	padding: 150px 50px;
+	float: left;
+	background: linear-gradient(-45deg,darkcyan,firebrick,#1a34);
+	background-size:400% 400%;
+	animation: 10s divya alternate infinite;
+}
+@keyframes divya{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+@media screen and (max-width: 575px){
+	.main-form{
+		padding: 100px 10px;
+	}
+	.submit-btn{
+		margin-left: 0px !important;
+	}
+}
+.Eventully-form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.input-bx{
+	padding: 7px 25px;
+	font-size: 18px;
+	color: gray;
+	border: 0;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.submit-btn{
+	border: 0;
+	margin-left: 10px;
+	background: #1CB495;
+	padding: 9px 15px;
+	border-radius: 5px;
+	color: whitesmoke;
+	font-size: 18px;
+}
+.icons span i{
+	margin: 50px 10px;
+	font-size: 22px;
+	color: gray;
+	transition: 2s;
+}
+.icons span i:hover{ 
+	color: orange;
+	
+}
+.foot{
+	width: 100%;
+	float: left;
+
+}

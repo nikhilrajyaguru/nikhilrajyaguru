@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.wraper{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.banner{
+	padding: 120px 0px;
+	background-color: #4686a0;
+	color: rgba(255, 255, 255, 0.75);
+	background-attachment: fixed, fixed, fixed;
+	background-image: url("../image/overlay2.png"), url("../image/overlay3.svg"),linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+	background-position: top left, center center, center center;
+	background-size: auto, cover, cover;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+}
+.dscv{
+	border: 1px solid white;
+	padding: 10px 35px;
+	color: white;
+	letter-spacing: 3px;
+	font-size: 18px;
+	position: relative;
+	text-transform: uppercase;
+}
+.dscv:hover{
+	background: rgba(255, 255, 255, 0.2);
+	color: white;
+}
+.dscv:after{
+	content: '';
+	top: 100%;
+	left: 0;
+	right: 0;
+	height: 150px;
+	width: 100%;
+	margin: 0px 50%;
+	position: absolute;
+	border-left:1px solid white;
+	overflow: hidden;
+}
+.adipiscing{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	overflow: hidden;
+}
+.concept{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	background-attachment: fixed;
+	background-image: url("../image/header.jpg"),url("../image/overlay2.png");
+	background-size:auto, cover, cover;
+	background-position: center,top;
+	box-sizing: border-box;
+
+}
+.icons{
+	width: 120px;
+	height: 120px;
+	border:1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(45deg);
+	margin: 60px;
+}
+@media screen and (max-width: 768px){
+	.icons{
+		margin-left:40%;
+	}
+}
+@media screen and (max-width: 575px){
+	.icons{
+		margin-left:40%;
+	}
+}
+@media screen and (max-width: 499px){
+	.icons{
+		margin-left:38%;
+	}
+}
+@media screen and (max-width: 450px){
+	.icons{
+		margin-left:35%;
+	}
+}
+@media screen and (max-width: 320px){
+	.icons{
+		margin-left:30%;
+	}
+}
+.icons i{
+	font-size: 50px;
+	color: white;
+	transform: rotate(-45deg);
+	overflow: hidden;
+}
+.pht-galery{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+}
+.more-btn{
+	padding: 8px 35px;	
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+.singup{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	color: white;
+	background-attachment: fixed;
+	background-image: url("../image/overlay2.png"), url("../image/header.jpg");
+	background-position: center, top;
+	background-size: auto, cover, cover;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.singup-btn{
+	padding: 10px 40px;
+	letter-spacing: 3px;
+	background-color: #FFFFFF;
+	color: rgba(0, 0, 0, 0.8);
+}
+.singup-btn:hover{
+	background-color:rgba(255, 255, 255, 0.1) ;
+	color: white;
+}
+.learn-btn{
+	padding: 10px 30px;
+	letter-spacing: 2px;
+}
+.foot{
+	width: 100%;
+	float: left;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #4686a0;
+	color: rgba(255, 255, 255, 0.75);
+	background-attachment: fixed, fixed, fixed;
+	background-image: url("../image/overlay2.png"), url("../image/overlay3.svg"),linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+	background-position: top left, center center, center center;
+	background-size: auto, cover, cover;
+	overflow: hidden;
+}
+.icon-2{
+	font-size: 25px;
+}
+i{
+	margin: 10px;
+}

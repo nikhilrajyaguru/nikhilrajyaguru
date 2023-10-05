@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	font-family: calibri;
+	padding: 0;
+	box-sizing: border-box;
+}	
+
+.main{
+	width: 70%;
+	display: flex;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	box-shadow: 10px 15px 7px gray;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.left{
+	width: 50%;
+	/*height: 500px;*/
+	background:url("image/girllaptop.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 0;
+}
+.left:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: linear-gradient(to top,transparent,rgba(0, 0, 100, 0.5)) ;
+	background-color: rgba(255,255,255,0.5);
+}
+.right{
+	width: 50%;
+	padding: 20px 100px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;	
+	z-index: 1;
+}
+.right:after{
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(transparent,rgba(0, 0, 0,0.2));
+	z-index: -1;
+}
+.login{
+	margin-right: auto;
+	margin-top: 30px;
+
+}
+span{
+	margin-top:15px;
+	margin-right: auto;
+}
+
+.input1{	
+	width: 100%;
+}
+.input1 input{
+	border-radius: 30px;
+	padding: 10px 15px;
+	border: none;
+	border: 1px solid gray;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.input2{	
+	width: 100%;
+}
+.input2 input{
+	padding: 10px 15px;
+	border-radius: 30px;
+	border: none;
+	border: 1px solid gray;
+	width: 100%;
+	margin-top: 10px;
+}
+.input4{	
+	width: 100%;
+}
+.input4 input{
+	padding: 10px 15px;
+	border-radius: 30px;
+	width: 100%;
+	color: wheat;
+	font-size: 22px;
+	border: none;
+	background-color: #EE5684;
+	margin-top: 10px;
+}
+.checkbox{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.link{
+	margin-top: 10px;
+	margin-right: auto;
+}
+.link a{
+	text-decoration: none;
+}
+.text{
+	margin-top: 50px;
+
+}
+.icon{
+	display: flex;
+}
+.icon1{
+	margin: 20px 10px;
+	background: dimgray;
+	color: white;
+	border-radius: 100%;
+	padding: 15px;
+}
+.icon2{
+	background: #EE5684;
+	margin: 20px 10px;
+	border-radius: 100%;
+	padding: 15px 18px;
+	color: white;
+}
+

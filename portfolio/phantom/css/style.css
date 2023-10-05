@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+.wraper{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+}
+.logo{
+	letter-spacing: 5px;
+	color: gray;
+}
+.photos{
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+.photo-box{
+	width: 300px;
+	height: 300px;
+	background-blend-mode: soft-light;
+	background-position: center;
+	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 5px ;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.photo-box:hover{
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.photo-text{
+	height: 0px;
+	overflow: hidden;
+	transition: 0.5s;
+	padding: 0px 5px;
+	text-align: center;
+}		
+.photo-box:hover .photo-text{
+	height: 60px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background-color: #F6F6F6;
+}
+.getintouch{
+	letter-spacing: 5px;
+	font-weight: bolder;
+}
+.footer-input{
+	background-color: #F6F6F6;
+	border: 0;
+	border-bottom: 1px solid #c6c6c6;
+	border-radius: 0;
+	padding: 20px 0px;
+}
+.form-control:focus{
+	box-shadow: none;
+	background-color: #f6f6f6;
+}
+.footer-input-btn{
+	padding: 15px 20px;
+	letter-spacing: 5px;
+	background-color: #585858;
+	color: white;
+	border:0;
+	font-weight:bolder ;
+	border-radius: 5px;
+}
+.icon-box i{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #c6c6c6;
+	text-align: center;
+	line-height: 50px;
+	margin: 5px;
+	overflow: hidden;
+	transition: 0.4s;
+}
+.icon-box i:hover{
+	transform: scale(1.1);
+}
